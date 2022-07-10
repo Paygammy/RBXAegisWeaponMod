@@ -1,4 +1,4 @@
-local getregistry = getreg or debug.registry
+local getregistry = getreg or debug.getregistry
 local getupvalues = getupvalues or debug.getupvalues
 local islocalclosure = isexecutorclosure or is_synapse_function
 
